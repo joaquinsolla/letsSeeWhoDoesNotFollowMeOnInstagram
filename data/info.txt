@@ -1,3 +1,5 @@
+Place your 2 JSON files here.
+
 Followers file has the desired format, but it is needed to modify the following JSON to get the same format as the followers file:
 
 FROM THIS:

@@ -1,0 +1,43 @@
+Followers file has the desired format, but it is needed to modify the following JSON to get the same format as the followers file:
+
+FROM THIS:
+
+{
+  "relationships_following": [
+    {
+      "title": "",
+      "media_list_data": [
+
+      ],
+      "string_list_data": [
+        {
+          "href": "https://www.instagram.com/xxxxx",
+          "value": "xxxxx",
+          "timestamp": xxxxx
+        }
+      ]
+    },
+    .........
+
+}
+
+
+TO THIS:
+
+[
+    {
+      "title": "",
+      "media_list_data": [
+
+      ],
+      "string_list_data": [
+        {
+          "href": "https://www.instagram.com/xxxxx",
+          "value": "xxxxx",
+          "timestamp": xxxxx
+        }
+      ]
+    },
+    .........
+
+]
